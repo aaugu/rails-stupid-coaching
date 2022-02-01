@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  font-family: Helvetica;
+}
+
+.chat-box {
+  border-left: 5px solid lightgray;
+  padding: 8px 16px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.coach {
+  background-color: lightyellow;
+}
+
+.person {
+  font-style: italic;
+}
+.answer {
+  font-weight: bold;
+}
